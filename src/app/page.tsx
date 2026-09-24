@@ -16,7 +16,7 @@ const links = [
 
 export default function Home() {
   return (
-    <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-10 px-6 py-16">
+    <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-12 px-7 pt-20 pb-16 sm:px-8 sm:pt-28">
       <ProfileHeader {...profile} />
       <ul className="flex flex-col gap-4">
         {links.map((link) => (
