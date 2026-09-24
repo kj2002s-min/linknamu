@@ -19,9 +19,9 @@ export default function ProfileHeader({
         width={112}
         height={112}
         priority
-        className="h-28 w-28 rounded-full border border-black/10 object-cover dark:border-white/15"
+        className="h-28 w-28 rounded-full border border-black/10 object-cover object-top dark:border-white/15"
       />
-      <h1 className="text-xl font-semibold tracking-tight">{name}</h1>
+      <h1 className="text-xl font-bold tracking-tight">{name}</h1>
       <p className="text-sm text-zinc-600 dark:text-zinc-400">{bio}</p>
     </header>
   );
